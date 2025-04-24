@@ -11,7 +11,7 @@ const target = document.querySelector(selectorBefore);
 target.insertAdjacentElement('beforebegin', button);
   
 button.addEventListener('click', eventFunction);
-
+}
     
     // Avoid polluting global scope
     const myUtils = {
